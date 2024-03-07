@@ -138,7 +138,7 @@ def make_coordinates(image, line_params):
     return np.array([x1, y1, x2, y2])
 
 
-video_path = f"C:\\Users\\Choaib ELMADI\\Downloads\\D.I.F.Y\\Electronics\\Robotics\\7- Mini Tesla\\Lines Detection\\Videos\\{ video }.mp4"
+video_path = f"C:\\Users\\Choaib ELMADI\\Downloads\\D.I.F.Y\\Electronics\\Robotics\\7- Mini Tesla Assets\\Videos\\{ video }.mp4"
 cap = cv2.VideoCapture(video_path)
 
 frame_counter = 0
