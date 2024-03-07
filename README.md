@@ -1,4 +1,4 @@
-# CyberDrive: Self-Driving Car Project
+# CyberDrive: Self-Driving Car Project with Python
 
 #### CyberDrive is an ambitious project aimed at developing a self-driving car prototype inspired by the innovative technology of the Tesla Cybertruck. Leveraging Python and ESP32CAM, CyberDrive integrates cutting-edge computer vision algorithms to process real-time images and drive autonomously, mimicking the functionalities of advanced automotive technologies.
 
