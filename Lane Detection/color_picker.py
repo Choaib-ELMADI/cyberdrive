@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 
-video_name = "white.mp4"
+video_name = "phone__video__1.mp4"
 video_path = f"C:\\Users\\Choaib ELMADI\\Downloads\\D.I.F.Y\\Electronics\\Robotics\\7- CyberDrive\\Assets\\Videos\\{ video_name }"
 
 
@@ -48,7 +48,7 @@ while True:
     h_stack = np.hstack([frame, mask, result])
     cv2.imshow("Horizontal Stacking", h_stack)
 
-    if cv2.waitKey(1) and 0xFF == ord("q"):
+    if cv2.waitKey(10) and 0xFF == ord("q"):
         break
 
 cap.release()

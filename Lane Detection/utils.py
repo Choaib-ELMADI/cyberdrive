@@ -3,8 +3,17 @@ import numpy as np
 
 
 def threshold_image(image):
-    lower_white = np.array([70, 0, 0])
+    # WHITE
+    # lower_white = np.array([70, 0, 0])
+    # upper_white = np.array([179, 255, 255])
+
+    # WHITE
+    lower_white = np.array([0, 0, 158])
     upper_white = np.array([179, 255, 255])
+
+    # BLACK
+    # lower_white = np.array([88, 14, 0])
+    # upper_white = np.array([179, 232, 255])
 
     hsv_image = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
     white_mask = cv2.inRange(hsv_image, lower_white, upper_white)

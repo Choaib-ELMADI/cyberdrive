@@ -1,11 +1,10 @@
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
-
 import utils
 
 
-video_name = "video__1.mp4"
+video_name = "phone__video__1.mp4"
 video_path = f"C:\\Users\\Choaib ELMADI\\Downloads\\D.I.F.Y\\Electronics\\Robotics\\7- CyberDrive\\Assets\\Videos\\{ video_name }"
 # video_path = "http://192.168.251.202:81/stream"
 
@@ -32,8 +31,10 @@ def get_image_curve(image, show=2):
 
     image_with_points = utils.draw_points(np.copy(image), points)
 
-    mid_point, _ = utils.pixel_summation(warped_image, percent=0.5, show=True, region=2)  # type: ignore
-    base_point, summation_image = utils.pixel_summation(warped_image, percent=0.9, show=True)  # type: ignore
+    mid_point, _ = utils.pixel_summation(warped_image, percent=0.2, show=True, region=2)
+    base_point, summation_image = utils.pixel_summation(
+        warped_image, percent=0.4, show=True
+    )
     raw_curve = base_point - mid_point
 
     curves_list.append(raw_curve)
@@ -107,6 +108,46 @@ def get_image_curve(image, show=2):
         cv2.FILLED,
     )
 
+    # """
+    cv2.rectangle(image, (0, 0), (60, 50), text_background, cv2.FILLED)
+    cv2.putText(image, "1", (15, 35), cv2.FONT_HERSHEY_COMPLEX_SMALL, 2, text_color, 2)
+
+    cv2.rectangle(image_with_points, (0, 0), (60, 50), text_background, cv2.FILLED)
+    cv2.putText(
+        image_with_points,
+        "2",
+        (15, 35),
+        cv2.FONT_HERSHEY_COMPLEX_SMALL,
+        2,
+        text_color,
+        2,
+    )
+
+    cv2.rectangle(warped_image, (0, 0), (60, 50), text_background, cv2.FILLED)
+    cv2.putText(
+        warped_image, "3", (15, 35), cv2.FONT_HERSHEY_COMPLEX_SMALL, 2, text_color, 2
+    )
+
+    cv2.rectangle(summation_image, (0, 0), (60, 50), text_background, cv2.FILLED)  # type: ignore
+    cv2.putText(summation_image, "4", (15, 35), cv2.FONT_HERSHEY_COMPLEX_SMALL, 2, text_color, 2)  # type: ignore
+
+    cv2.rectangle(warped_image_inv, (0, 0), (60, 50), text_background, cv2.FILLED)
+    cv2.putText(
+        warped_image_inv,
+        "5",
+        (15, 35),
+        cv2.FONT_HERSHEY_COMPLEX_SMALL,
+        2,
+        text_color,
+        2,
+    )
+
+    cv2.rectangle(result_image, (0, 0), (60, 50), text_background, cv2.FILLED)
+    cv2.putText(
+        result_image, "6", (15, 35), cv2.FONT_HERSHEY_COMPLEX_SMALL, 2, text_color, 2
+    )
+    # """
+
     if show == 2:
         stacked_images = utils.stack_images(
             0.95,
@@ -127,8 +168,8 @@ if __name__ == "__main__":
 
     frame_counter = 0
     while True:
-        _, frame = cap.read()  # 640*480 === 160*120
-        frame = cv2.resize(frame, (480, 360))  # type: ignore
+        _, frame = cap.read()
+        frame = cv2.resize(frame, (480, 360))
 
         curve = get_image_curve(frame, show=2)
         # curve = get_image_curve(frame)
