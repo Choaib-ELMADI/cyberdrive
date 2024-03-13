@@ -88,7 +88,7 @@ def make_coordinates(image, line_params):
 
 
 image_name = "1.jpg"
-image_path = f"C:\\Users\\Choaib ELMADI\\Downloads\\D.I.F.Y\\Electronics\\Robotics\\7- Mini Tesla\\Lines Detection\\Images\\{ image_name }"
+image_path = f"C:\\Users\\Choaib ELMADI\\Downloads\\D.I.F.Y\\Electronics\\Robotics\\7- CyberDrive\\Assets\\Images\\{ image_name }"
 image = cv2.imread(image_path)
 image = cv2.resize(image, (WIDTH, HEIGHT))
 lane_image = np.copy(image)

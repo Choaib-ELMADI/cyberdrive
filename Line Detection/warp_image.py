@@ -7,7 +7,8 @@ def handle_mouse_click(event, x, y, _, __):
         print(f"({ x }, { y })")
 
 
-image_path = f"C:\\Users\\Choaib ELMADI\\Downloads\\D.I.F.Y\\Electronics\\Robotics\\7- Mini Tesla\\Lines Detection\\Images\\cards__2.webp"
+image_name = "cards__1.webp"
+image_path = f"C:\\Users\\Choaib ELMADI\\Downloads\\D.I.F.Y\\Electronics\\Robotics\\7- CyberDrive\\Assets\\Images\\{ image_name }"
 image = cv2.imread(image_path)
 image = cv2.resize(image, (900, 557))
 

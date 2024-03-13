@@ -3,7 +3,7 @@ import numpy as np
 
 
 video_name = "white.mp4"
-video_path = f"C:\\Users\\Choaib ELMADI\\Downloads\\D.I.F.Y\\Electronics\\Robotics\\7- Mini Tesla\\Lines Detection\\Videos\\{ video_name }"
+video_path = f"C:\\Users\\Choaib ELMADI\\Downloads\\D.I.F.Y\\Electronics\\Robotics\\7- CyberDrive\\Assets\\Videos\\{ video_name }"
 
 
 def empty(a):

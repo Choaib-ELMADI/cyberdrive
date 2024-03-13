@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-video = 6
+video_name = "6.mp4"
 WIDTH = 640
 HEIGHT = 352
 SELECTION = [
@@ -138,7 +138,7 @@ def make_coordinates(image, line_params):
     return np.array([x1, y1, x2, y2])
 
 
-video_path = f"C:\\Users\\Choaib ELMADI\\Downloads\\D.I.F.Y\\Electronics\\Robotics\\7- Mini Tesla Assets\\Videos\\{ video }.mp4"
+video_path = f"C:\\Users\\Choaib ELMADI\\Downloads\\D.I.F.Y\\Electronics\\Robotics\\7- CyberDrive\\Assets\\Videos\\{ video_name }"
 cap = cv2.VideoCapture(video_path)
 
 frame_counter = 0

@@ -2,7 +2,7 @@ import cv2
 import math
 
 image_name = "angles.jpg"
-image_path = f"C:\\Users\\Choaib ELMADI\\Downloads\\D.I.F.Y\\Electronics\\Robotics\\7- Mini Tesla\\Angle Detection\\{image_name}"
+image_path = f"C:\\Users\\Choaib ELMADI\\Downloads\\D.I.F.Y\\Electronics\\Robotics\\7- CyberDrive\\Assets\\Images\\{ image_name }"
 image = cv2.imread(image_path)
 
 points_list = []
