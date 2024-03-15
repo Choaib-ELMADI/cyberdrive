@@ -1,0 +1,17 @@
+Altium Designer Pick and Place Locations
+C:\Users\Choaib ELMADI\Downloads\D.I.F.Y\Electronics\Robotics\7- CyberDrive\Circuit Diagram\CyberDriveControllerBoard\Project Outputs for CyberDriveControllerBoard\Pick Place for ControllerBoard.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       15/03/24
+Time:       00:25
+Revision:   192103849501324fdeefb22ed4188d3760d655a3
+Variant:    No variations
+Units used: mil
+
+Designator Comment          Layer    Footprint   Center-X(mil) Center-Y(mil) Rotation Description 
+P2         "Pin Headers"    TopLayer 61300811121 725.000mil    1584.000mil   0        ""          
+P1         "Pin Headers"    TopLayer 61300811121 725.000mil    1790.000mil   0        ""          
+J2         "Socket Headers" TopLayer 61300811821 1140.000mil   785.000mil    90       ""          
+J1         "Socket Headers" TopLayer 61300811821 240.000mil    785.000mil    90       ""          

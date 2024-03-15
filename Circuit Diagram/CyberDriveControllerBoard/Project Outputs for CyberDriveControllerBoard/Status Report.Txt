@@ -1,0 +1,11 @@
+Output: Generates pick and place files
+Type  : Pick Place
+From  : Variant [[No Variations]] of Project [CyberDriveControllerBoard.PrjPcb]
+   Generated File[Pick Place for ControllerBoard.txt]
+   Generated File[Pick Place for ControllerBoard.csv]
+
+
+Files Generated   : 2
+Documents Printed : 0
+
+Finished Output Generation At 12:25:24 AM On 3/15/2024

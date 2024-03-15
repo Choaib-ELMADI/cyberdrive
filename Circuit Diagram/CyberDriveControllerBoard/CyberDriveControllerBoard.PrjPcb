@@ -85,6 +85,164 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ISGQBPAB
 
+[Document3]
+DocumentPath=ControllerBoard.Cam
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document4]
+DocumentPath=CyberDriveControllerBoard.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for CyberDriveControllerBoard\ControllerBoard.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for CyberDriveControllerBoard\ControllerBoard.REP
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for CyberDriveControllerBoard\ControllerBoard.xls
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for CyberDriveControllerBoard\ControllerBoard_Bottom_3D_Body.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for CyberDriveControllerBoard\ControllerBoard_Bottom_Component_Outline.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for CyberDriveControllerBoard\ControllerBoard_Bottom_Courtyard.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for CyberDriveControllerBoard\ControllerBoard_Bottom_Designator.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for CyberDriveControllerBoard\ControllerBoard_Copper_Signal_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for CyberDriveControllerBoard\ControllerBoard_Copper_Signal_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for CyberDriveControllerBoard\ControllerBoard_Drawing_1.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for CyberDriveControllerBoard\ControllerBoard_Drillmap_1.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for CyberDriveControllerBoard\ControllerBoard_Keep-out.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for CyberDriveControllerBoard\ControllerBoard_Legend_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for CyberDriveControllerBoard\ControllerBoard_Legend_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for CyberDriveControllerBoard\ControllerBoard_Mechanical_1.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for CyberDriveControllerBoard\ControllerBoard_NPTH_Drill.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for CyberDriveControllerBoard\ControllerBoard_Pads_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for CyberDriveControllerBoard\ControllerBoard_Pads_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for CyberDriveControllerBoard\ControllerBoard_Paste_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs for CyberDriveControllerBoard\ControllerBoard_Paste_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Project Outputs for CyberDriveControllerBoard\ControllerBoard_Profile.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Project Outputs for CyberDriveControllerBoard\ControllerBoard_PTH_Drill.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Project Outputs for CyberDriveControllerBoard\ControllerBoard_Soldermask_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Project Outputs for CyberDriveControllerBoard\ControllerBoard_Soldermask_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=Project Outputs for CyberDriveControllerBoard\ControllerBoard_Top_3D_Body.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=Project Outputs for CyberDriveControllerBoard\ControllerBoard_Top_Component_Outline.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=Project Outputs for CyberDriveControllerBoard\ControllerBoard_Top_Courtyard.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=Project Outputs for CyberDriveControllerBoard\ControllerBoard_Top_Designator.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=Project Outputs for CyberDriveControllerBoard\Design Rule Check - ControllerBoard.html
+DItemRevisionGUID=
+
+[GeneratedDocument30]
+DocumentPath=Project Outputs for CyberDriveControllerBoard\Pick Place for ControllerBoard.csv
+DItemRevisionGUID=
+
+[GeneratedDocument31]
+DocumentPath=Project Outputs for CyberDriveControllerBoard\Pick Place for ControllerBoard.txt
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
@@ -94,6 +252,44 @@ Variant=[No Variations]
 OutputJobsCount=0
 ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
+
+[Generic_SmartPDF]
+AutoOpenFile=-1
+AutoOpenOutJob=-1
+
+[Generic_SmartPDFSettings]
+ProjectMode=-1
+ZoomPrecision=50
+AddNetsInformation=-1
+AddNetPins=-1
+AddNetNetLabels=-1
+AddNetPorts=-1
+ShowComponentParameters=-1
+GlobalBookmarks=0
+ExportBOM=-1
+TemplateFilename=
+TemplateStoreRelative=-1
+PCB_PrintColor=1
+SCH_PrintColor=0
+PrintQuality=-3
+SCH_ShowNoErc=-1
+SCH_ShowParameter=-1
+SCH_ShowProbes=-1
+SCH_ShowBlankets=-1
+SCH_NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle
+SCH_ShowNote=-1
+SCH_ShowNoteCollapsed=-1
+Wir_PrintColor=0
+Ldr_PrintColor=0
+SCH_ExpandLogicalToPhysical=-1
+SCH_VariantName=[No Variations]
+SCH_ExpandComponentDesignators=-1
+SCH_ExpandNetlabels=-1
+SCH_ExpandPorts=0
+SCH_ExpandSheetNumber=0
+SCH_ExpandDocumentNumber=0
+SCH_HasExpandLogicalToPhysicalSheets=-1
+SaveSettingsToOutJob=-1
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -318,94 +514,192 @@ Name=Assembly Outputs
 Description=
 TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=Assembly
-OutputName1=Assembly Drawings
+OutputType1=Test Points For Assembly
+OutputName1=Test Point Report
 OutputDocumentPath1=
 OutputVariantName1=[No Variations]
 OutputDefault1=0
-PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType2=Pick Place
 OutputName2=Generates pick and place files
 OutputDocumentPath2=
 OutputVariantName2=[No Variations]
 OutputDefault2=0
-OutputType3=Test Points For Assembly
-OutputName3=Test Point Report
+Configuration2_Name1=ForceUpdateSettings
+Configuration2_Item1=False
+Configuration2_Name2=OutputConfigurationParameter1
+Configuration2_Item2=Record=PickPlaceView|Units=Imperial|GenerateCSVFormat=True|GenerateTextFormat=True|ShowUnits=True|Separator=.|ExcludeFilterParam=False|IncludeVariations=True|IncludeStandardNoBOM=True|Filter= |FilterActive=False|YFlip=False|DifferentFootprints=True|Column#1=Name:Designator,Fixed:True,Metric:False,Visible:True,Sort:None,Position:0|Column#2=Name:Comment,Fixed:True,Metric:False,Visible:True,Sort:None,Position:1|Column#3=Name:Layer,Fixed:True,Metric:False,Visible:True,Sort:None,Position:2|Column#4=Name:Footprint,Fixed:True,Metric:False,Visible:True,Sort:None,Position:3|Column#5=Name:Footprint Description,Fixed:True,Metric:False,Visible:False,Sort:None,Position:4|Column#6=Name:Center-X,Fixed:True,Metric:True,Visible:True,Sort:None,Position:5|Column#7=Name:Center-Y,Fixed:True,Metric:True,Visible:True,Sort:None,Position:6|Column#8=Name:Rotation,Fixed:True,Metric:False,Visible:True,Sort:None,Position:7|Column#9=Name:Description,Fixed:True,Metric:False,Visible:True,Sort:None,Position:8|Column#10=Name:ComponentKind,Fixed:True,Metric:False,Visible:False,Sort:None,Position:9|Column#11=Name:Height,Fixed:True,Metric:True,Visible:False,Sort:None,Position:10|Column#12=Name:Ref-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:11|Column#13=Name:Ref-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:12|Column#14=Name:Pad-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:13|Column#15=Name:Pad-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:14|Column#16=Name:Variation,Fixed:True,Metric:False,Visible:False,Sort:None,Position:15|Column#17=Name:REACH SVHC,Fixed:False,Metric:False,Visible:False,Sort:None,Position:38,Type:0|Column#18=Name:Pitch,Fixed:False,Metric:False,Visible:False,Sort:None,Position:37,Type:0|Column#19=Name:Number of Contacts,Fixed:False,Metric:False,Visible:False,Sort:None,Position:30,Type:0|Column#20=Name:Contact Resistance,Fixed:False,Metric:False,Visible:False,Sort:None,Position:21,Type:0|Column#21=Name:Orientation,Fixed:False,Metric:False,Visible:False,Sort:None,Position:35,Type:0|Column#22=Name:Max Operating Temperature,Fixed:False,Metric:False,Visible:False,Sort:None,Position:26,Type:0|Column#23=Name:Min Operating Temperature,Fixed:False,Metric:False,Visible:False,Sort:None,Position:27,Type:0|Column#24=Name:RoHS,Fixed:False,Metric:False,Visible:False,Sort:None,Position:39,Type:0|Column#25=Name:Connector Type,Fixed:False,Metric:False,Visible:False,Sort:None,Position:17,Type:0|Column#26=Name:Number of Rows,Fixed:False,Metric:False,Visible:False,Sort:None,Position:33,Type:0|Column#27=Name:Operating Supply Voltage,Fixed:False,Metric:False,Visible:False,Sort:None,Position:34,Type:0|Column#28=Name:Current Rating,Fixed:False,Metric:False,Visible:False,Sort:None,Position:22,Type:0|Column#29=Name:Mount,Fixed:False,Metric:False,Visible:False,Sort:None,Position:28,Type:0|Column#30=Name:Termination,Fixed:False,Metric:False,Visible:False,Sort:None,Position:40,Type:0|Column#31=Name:Contact Plating,Fixed:False,Metric:False,Visible:False,Sort:None,Position:20,Type:0|Column#32=Name:Packaging,Fixed:False,Metric:False,Visible:False,Sort:None,Position:36,Type:0|Column#33=Name:Contact Mating Length,Fixed:False,Metric:False,Visible:False,Sort:None,Position:19,Type:0|Column#34=Name:Number of Pins,Fixed:False,Metric:False,Visible:False,Sort:None,Position:31,Type:0|Column#35=Name:Gender,Fixed:False,Metric:False,Visible:False,Sort:None,Position:23,Type:0|Column#36=Name:NexarPartId,Fixed:False,Metric:False,Visible:False,Sort:None,Position:29,Type:0|Column#37=Name:Number of Positions,Fixed:False,Metric:False,Visible:False,Sort:None,Position:32,Type:0|Column#38=Name:Color,Fixed:False,Metric:False,Visible:False,Sort:None,Position:16,Type:0|Column#39=Name:Contact Material,Fixed:False,Metric:False,Visible:False,Sort:None,Position:18,Type:0|Column#40=Name:Voltage Rating,Fixed:False,Metric:False,Visible:False,Sort:None,Position:41,Type:0|Column#41=Name:Lead Pitch,Fixed:False,Metric:False,Visible:False,Sort:None,Position:25,Type:0|Column#42=Name:Height,Fixed:False,Metric:False,Visible:False,Sort:None,Position:24,Type:0|DocumentPath=C:\Users\Choaib ELMADI\Downloads\D.I.F.Y\Electronics\Robotics\7- CyberDrive\Circuit Diagram\CyberDriveControllerBoard\ControllerBoard.PcbDoc
+OutputType3=Assembly
+OutputName3=Assembly Drawings
 OutputDocumentPath3=
 OutputVariantName3=[No Variations]
 OutputDefault3=0
+PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=4.25|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=0|PaperKind=Letter|PaperIndex=1
+Configuration3_Name1=ForceUpdateSettings
+Configuration3_Item1=False
+Configuration3_Name2=OutputConfigurationParameter1
+Configuration3_Item2=DesignatorDisplayMode=Physical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView|DocumentPath=C:\Users\Choaib ELMADI\Downloads\D.I.F.Y\Electronics\Robotics\7- CyberDrive\Circuit Diagram\CyberDriveControllerBoard\ControllerBoard.PcbDoc
+Configuration3_Name3=OutputConfigurationParameter2
+Configuration3_Item3=IncludeBoardCutouts=False|IncludeBottomLayerComponents=False|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=False|Name=Top LayerAssembly Drawing|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\Users\Choaib ELMADI\Downloads\D.I.F.Y\Electronics\Robotics\7- CyberDrive\Circuit Diagram\CyberDriveControllerBoard\ControllerBoard.PcbDoc
+Configuration3_Name4=OutputConfigurationParameter3
+Configuration3_Item4=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Hidden|FFill=Hidden|FPad=Hidden|FRegion=Hidden|FText=Hidden|FTrack=Hidden|FVia=Hidden|Layer=TopLayer|Polygon=Hidden|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\Choaib ELMADI\Downloads\D.I.F.Y\Electronics\Robotics\7- CyberDrive\Circuit Diagram\CyberDriveControllerBoard\ControllerBoard.PcbDoc
+Configuration3_Name5=OutputConfigurationParameter4
+Configuration3_Item5=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopOverlay|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\Choaib ELMADI\Downloads\D.I.F.Y\Electronics\Robotics\7- CyberDrive\Circuit Diagram\CyberDriveControllerBoard\ControllerBoard.PcbDoc
+Configuration3_Name6=OutputConfigurationParameter5
+Configuration3_Item6=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Hidden|Layer=MultiLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\Choaib ELMADI\Downloads\D.I.F.Y\Electronics\Robotics\7- CyberDrive\Circuit Diagram\CyberDriveControllerBoard\ControllerBoard.PcbDoc
+Configuration3_Name7=OutputConfigurationParameter6
+Configuration3_Item7=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical3|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\Choaib ELMADI\Downloads\D.I.F.Y\Electronics\Robotics\7- CyberDrive\Circuit Diagram\CyberDriveControllerBoard\ControllerBoard.PcbDoc
+Configuration3_Name8=OutputConfigurationParameter7
+Configuration3_Item8=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical11|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\Choaib ELMADI\Downloads\D.I.F.Y\Electronics\Robotics\7- CyberDrive\Circuit Diagram\CyberDriveControllerBoard\ControllerBoard.PcbDoc
+Configuration3_Name9=OutputConfigurationParameter8
+Configuration3_Item9=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\Choaib ELMADI\Downloads\D.I.F.Y\Electronics\Robotics\7- CyberDrive\Circuit Diagram\CyberDriveControllerBoard\ControllerBoard.PcbDoc
+Configuration3_Name10=OutputConfigurationParameter9
+Configuration3_Item10=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\Choaib ELMADI\Downloads\D.I.F.Y\Electronics\Robotics\7- CyberDrive\Circuit Diagram\CyberDriveControllerBoard\ControllerBoard.PcbDoc
+Configuration3_Name11=OutputConfigurationParameter10
+Configuration3_Item11=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=False|IncludeViewports=True|Index=1|Mirror=False|Name=Bottom LayerAssembly Drawing|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\Users\Choaib ELMADI\Downloads\D.I.F.Y\Electronics\Robotics\7- CyberDrive\Circuit Diagram\CyberDriveControllerBoard\ControllerBoard.PcbDoc
+Configuration3_Name12=OutputConfigurationParameter11
+Configuration3_Item12=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Hidden|FFill=Hidden|FPad=Hidden|FRegion=Hidden|FText=Hidden|FTrack=Hidden|FVia=Hidden|Layer=BottomLayer|Polygon=Hidden|PrintOutIndex=1|Record=PcbPrintLayer|DocumentPath=C:\Users\Choaib ELMADI\Downloads\D.I.F.Y\Electronics\Robotics\7- CyberDrive\Circuit Diagram\CyberDriveControllerBoard\ControllerBoard.PcbDoc
+Configuration3_Name13=OutputConfigurationParameter12
+Configuration3_Item13=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=BottomOverlay|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer|DocumentPath=C:\Users\Choaib ELMADI\Downloads\D.I.F.Y\Electronics\Robotics\7- CyberDrive\Circuit Diagram\CyberDriveControllerBoard\ControllerBoard.PcbDoc
+Configuration3_Name14=OutputConfigurationParameter13
+Configuration3_Item14=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Hidden|Layer=MultiLayer|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer|DocumentPath=C:\Users\Choaib ELMADI\Downloads\D.I.F.Y\Electronics\Robotics\7- CyberDrive\Circuit Diagram\CyberDriveControllerBoard\ControllerBoard.PcbDoc
+Configuration3_Name15=OutputConfigurationParameter14
+Configuration3_Item15=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical3|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer|DocumentPath=C:\Users\Choaib ELMADI\Downloads\D.I.F.Y\Electronics\Robotics\7- CyberDrive\Circuit Diagram\CyberDriveControllerBoard\ControllerBoard.PcbDoc
+Configuration3_Name16=OutputConfigurationParameter15
+Configuration3_Item16=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical11|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer|DocumentPath=C:\Users\Choaib ELMADI\Downloads\D.I.F.Y\Electronics\Robotics\7- CyberDrive\Circuit Diagram\CyberDriveControllerBoard\ControllerBoard.PcbDoc
+Configuration3_Name17=OutputConfigurationParameter16
+Configuration3_Item17=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer|DocumentPath=C:\Users\Choaib ELMADI\Downloads\D.I.F.Y\Electronics\Robotics\7- CyberDrive\Circuit Diagram\CyberDriveControllerBoard\ControllerBoard.PcbDoc
+Configuration3_Name18=OutputConfigurationParameter17
+Configuration3_Item18=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer|DocumentPath=C:\Users\Choaib ELMADI\Downloads\D.I.F.Y\Electronics\Robotics\7- CyberDrive\Circuit Diagram\CyberDriveControllerBoard\ControllerBoard.PcbDoc
 
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
 TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=Board Stack Report
-OutputName1=Report Board Stack
+OutputType1=CompositeDrill
+OutputName1=Composite Drill Drawing
 OutputDocumentPath1=
-OutputVariantName1=
+OutputVariantName1=[No Variations]
 OutputDefault1=0
-PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType2=CompositeDrill
-OutputName2=Composite Drill Drawing
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=5.53|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=0|PaperKind=Letter|PaperIndex=1
+Configuration1_Name1=ForceUpdateSettings
+Configuration1_Item1=False
+Configuration1_Name2=OutputConfigurationParameter1
+Configuration1_Item2=DesignatorDisplayMode=Physical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView|DocumentPath=C:\Users\Choaib ELMADI\Downloads\D.I.F.Y\Electronics\Robotics\7- CyberDrive\Circuit Diagram\CyberDriveControllerBoard\ControllerBoard.PcbDoc
+Configuration1_Name3=OutputConfigurationParameter2
+Configuration1_Item3=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=False|Name=Combination Drill Guide For (Top Layer - Bottom Layer)|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\Users\Choaib ELMADI\Downloads\D.I.F.Y\Electronics\Robotics\7- CyberDrive\Circuit Diagram\CyberDriveControllerBoard\ControllerBoard.PcbDoc
+Configuration1_Name4=OutputConfigurationParameter3
+Configuration1_Item4=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=DrillDrawing|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\Choaib ELMADI\Downloads\D.I.F.Y\Electronics\Robotics\7- CyberDrive\Circuit Diagram\CyberDriveControllerBoard\ControllerBoard.PcbDoc
+Configuration1_Name5=OutputConfigurationParameter4
+Configuration1_Item5=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=DrillGuide|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\Choaib ELMADI\Downloads\D.I.F.Y\Electronics\Robotics\7- CyberDrive\Circuit Diagram\CyberDriveControllerBoard\ControllerBoard.PcbDoc
+Configuration1_Name6=OutputConfigurationParameter5
+Configuration1_Item6=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical3|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\Choaib ELMADI\Downloads\D.I.F.Y\Electronics\Robotics\7- CyberDrive\Circuit Diagram\CyberDriveControllerBoard\ControllerBoard.PcbDoc
+Configuration1_Name7=OutputConfigurationParameter6
+Configuration1_Item7=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical11|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\Choaib ELMADI\Downloads\D.I.F.Y\Electronics\Robotics\7- CyberDrive\Circuit Diagram\CyberDriveControllerBoard\ControllerBoard.PcbDoc
+Configuration1_Name8=OutputConfigurationParameter7
+Configuration1_Item8=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\Choaib ELMADI\Downloads\D.I.F.Y\Electronics\Robotics\7- CyberDrive\Circuit Diagram\CyberDriveControllerBoard\ControllerBoard.PcbDoc
+Configuration1_Name9=OutputConfigurationParameter8
+Configuration1_Item9=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\Choaib ELMADI\Downloads\D.I.F.Y\Electronics\Robotics\7- CyberDrive\Circuit Diagram\CyberDriveControllerBoard\ControllerBoard.PcbDoc
+OutputType2=Drill
+OutputName2=Drill Drawing/Guides
 OutputDocumentPath2=
 OutputVariantName2=[No Variations]
 OutputDefault2=0
-PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType3=Drill
-OutputName3=Drill Drawing/Guides
+PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=5.53|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=0|PaperKind=Letter|PaperIndex=1
+Configuration2_Name1=ForceUpdateSettings
+Configuration2_Item1=False
+Configuration2_Name2=OutputConfigurationParameter1
+Configuration2_Item2=DesignatorDisplayMode=Physical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView|DocumentPath=C:\Users\Choaib ELMADI\Downloads\D.I.F.Y\Electronics\Robotics\7- CyberDrive\Circuit Diagram\CyberDriveControllerBoard\ControllerBoard.PcbDoc
+Configuration2_Name3=OutputConfigurationParameter2
+Configuration2_Item3=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=False|Name=Drill Drawing For (Top Layer - Bottom Layer)|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\Users\Choaib ELMADI\Downloads\D.I.F.Y\Electronics\Robotics\7- CyberDrive\Circuit Diagram\CyberDriveControllerBoard\ControllerBoard.PcbDoc
+Configuration2_Name4=OutputConfigurationParameter3
+Configuration2_Item4=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=DrillDrawing|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\Choaib ELMADI\Downloads\D.I.F.Y\Electronics\Robotics\7- CyberDrive\Circuit Diagram\CyberDriveControllerBoard\ControllerBoard.PcbDoc
+Configuration2_Name5=OutputConfigurationParameter4
+Configuration2_Item5=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical3|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\Choaib ELMADI\Downloads\D.I.F.Y\Electronics\Robotics\7- CyberDrive\Circuit Diagram\CyberDriveControllerBoard\ControllerBoard.PcbDoc
+Configuration2_Name6=OutputConfigurationParameter5
+Configuration2_Item6=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical11|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\Choaib ELMADI\Downloads\D.I.F.Y\Electronics\Robotics\7- CyberDrive\Circuit Diagram\CyberDriveControllerBoard\ControllerBoard.PcbDoc
+Configuration2_Name7=OutputConfigurationParameter6
+Configuration2_Item7=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\Choaib ELMADI\Downloads\D.I.F.Y\Electronics\Robotics\7- CyberDrive\Circuit Diagram\CyberDriveControllerBoard\ControllerBoard.PcbDoc
+Configuration2_Name8=OutputConfigurationParameter7
+Configuration2_Item8=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\Choaib ELMADI\Downloads\D.I.F.Y\Electronics\Robotics\7- CyberDrive\Circuit Diagram\CyberDriveControllerBoard\ControllerBoard.PcbDoc
+Configuration2_Name9=OutputConfigurationParameter8
+Configuration2_Item9=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=1|Mirror=False|Name=Drill Guide For (Top Layer - Bottom Layer)|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\Users\Choaib ELMADI\Downloads\D.I.F.Y\Electronics\Robotics\7- CyberDrive\Circuit Diagram\CyberDriveControllerBoard\ControllerBoard.PcbDoc
+Configuration2_Name10=OutputConfigurationParameter9
+Configuration2_Item10=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=DrillGuide|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer|DocumentPath=C:\Users\Choaib ELMADI\Downloads\D.I.F.Y\Electronics\Robotics\7- CyberDrive\Circuit Diagram\CyberDriveControllerBoard\ControllerBoard.PcbDoc
+Configuration2_Name11=OutputConfigurationParameter10
+Configuration2_Item11=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical3|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer|DocumentPath=C:\Users\Choaib ELMADI\Downloads\D.I.F.Y\Electronics\Robotics\7- CyberDrive\Circuit Diagram\CyberDriveControllerBoard\ControllerBoard.PcbDoc
+Configuration2_Name12=OutputConfigurationParameter11
+Configuration2_Item12=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical11|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer|DocumentPath=C:\Users\Choaib ELMADI\Downloads\D.I.F.Y\Electronics\Robotics\7- CyberDrive\Circuit Diagram\CyberDriveControllerBoard\ControllerBoard.PcbDoc
+Configuration2_Name13=OutputConfigurationParameter12
+Configuration2_Item13=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer|DocumentPath=C:\Users\Choaib ELMADI\Downloads\D.I.F.Y\Electronics\Robotics\7- CyberDrive\Circuit Diagram\CyberDriveControllerBoard\ControllerBoard.PcbDoc
+Configuration2_Name14=OutputConfigurationParameter13
+Configuration2_Item14=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer|DocumentPath=C:\Users\Choaib ELMADI\Downloads\D.I.F.Y\Electronics\Robotics\7- CyberDrive\Circuit Diagram\CyberDriveControllerBoard\ControllerBoard.PcbDoc
+OutputType3=Board Stack Report
+OutputName3=Report Board Stack
 OutputDocumentPath3=
-OutputVariantName3=[No Variations]
+OutputVariantName3=
 OutputDefault3=0
 PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+Configuration3_Name1=ForceUpdateSettings
+Configuration3_Item1=False
+Configuration3_Name2=OutputConfigurationParameter1
+Configuration3_Item2=Record=LayerStackReportView|Units=Imperial|ColumnsCount=8|Column0Name=Name|Column0Title=Name|Column0Visible=True|Column1Name=Material|Column1Title=Material|Column1Visible=True|Column2Name=Thickness|Column2Title=Thickness|Column2Visible=True|Column3Name=Constant|Column3Title=Constant|Column3Visible=True|Column4Name=DielectricConstant|Column4Title=Dk|Column4Visible=True|Column5Name=CoverlayExpansion|Column5Title=Coverlay expansion|Column5Visible=True|Column6Name=ComponentPlacement|Column6Title=Orientation|Column6Visible=True|Column7Name=CopperOrientation|Column7Title=Copper Orientation|Column7Visible=True|DocumentPath=C:\Users\Choaib ELMADI\Downloads\D.I.F.Y\Electronics\Robotics\7- CyberDrive\Circuit Diagram\CyberDriveControllerBoard\ControllerBoard.PcbDoc
 OutputType4=Final
 OutputName4=Final Artwork Prints
 OutputDocumentPath4=
 OutputVariantName4=[No Variations]
 OutputDefault4=0
 PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType5=Gerber
-OutputName5=Gerber Files
+OutputType5=Gerber X2
+OutputName5=Gerber X2 Files
 OutputDocumentPath5=
 OutputVariantName5=[No Variations]
 OutputDefault5=0
-OutputType6=Gerber X2
-OutputName6=Gerber X2 Files
+Configuration5_Name1=ForceUpdateSettings
+Configuration5_Item1=False
+Configuration5_Name2=OutputConfigurationParameter1
+Configuration5_Item2=BoardID=ISGQBPAB|FileComment= |FileSubject=Autodetect|GenerateDRCRulesFile=False|GenerateReports=True|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=True|MergePadAndRegion=False|MinusApertureTolerance=50|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OutputFormat=Single|PlotBackDrillingPairs=False|PlotBlindViasPairs=False|PlotBoardProfile=True|PlotBoardProfileFileName= |PlotCounterHolesPairs=False|PlotDrillDrawingPair0_Backdrill=False|PlotDrillDrawingPair0_Checked=True|PlotDrillDrawingPair0_DrillType=Regular|PlotDrillDrawingPair0_FileName= |PlotDrillDrawingPair0_HighLayer=Bottom Layer|PlotDrillDrawingPair0_LowLayer=Top Layer|PlotDrillDrawingPairs=False|PlotDrillGuidePair0_Backdrill=False|PlotDrillGuidePair0_Checked=True|PlotDrillGuidePair0_DrillType=Regular|PlotDrillGuidePair0_FileName= |PlotDrillGuidePair0_HighLayer=Bottom Layer|PlotDrillGuidePair0_LowLayer=Top Layer|PlotDrillGuidePairs=False|PlotMicroViasPairs=False|PlotNPTHPair0_Backdrill=False|PlotNPTHPair0_Checked=True|PlotNPTHPair0_DrillType=Regular|PlotNPTHPair0_FileName= |PlotNPTHPair0_HighLayer=Top Layer|PlotNPTHPair0_LowLayer=Bottom Layer|PlotNPTHPairs=False|PlotPTHPair0_Backdrill=False|PlotPTHPair0_Checked=True|PlotPTHPair0_DrillType=Regular|PlotPTHPair0_FileName= |PlotPTHPair0_HighLayer=Top Layer|PlotPTHPair0_LowLayer=Bottom Layer|PlotPTHPairs=False|PlotViaTypeDrillDrawingPairs=False|PlotViaTypeDrillGuidePairs=False|PlotViaTypeDrillPairs=False|PlotX2.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16777217~1,16842751~1,16973830~1,16973831~1,16973834~1,16973835~1,16973832~1,16973833~1,16908289~1,16908291~1,16908292~1,16908299~1,16908300~1,16908301~1,16908302~1,16908303~1,16908304~1,16973837~1,16973848~1,16973849~1|PlusApertureTolerance=50|Record=GerberX2View|Sorted=False|DocumentPath=C:\Users\Choaib ELMADI\Downloads\D.I.F.Y\Electronics\Robotics\7- CyberDrive\Circuit Diagram\CyberDriveControllerBoard\ControllerBoard.PcbDoc
+OutputType6=ODB
+OutputName6=ODB++ Files
 OutputDocumentPath6=
 OutputVariantName6=[No Variations]
 OutputDefault6=0
-OutputType7=IPC2581
-OutputName7=IPC-2581 Files
+OutputType7=Mask
+OutputName7=Solder/Paste Mask Prints
 OutputDocumentPath7=
 OutputVariantName7=[No Variations]
 OutputDefault7=0
-OutputType8=Mask
-OutputName8=Solder/Paste Mask Prints
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType8=NC Drill
+OutputName8=NC Drill Files
 OutputDocumentPath8=
-OutputVariantName8=[No Variations]
+OutputVariantName8=
 OutputDefault8=0
-PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType9=NC Drill
-OutputName9=NC Drill Files
+OutputType9=IPC2581
+OutputName9=IPC-2581 Files
 OutputDocumentPath9=
-OutputVariantName9=
+OutputVariantName9=[No Variations]
 OutputDefault9=0
-OutputType10=ODB
-OutputName10=ODB++ Files
+OutputType10=Plane
+OutputName10=Power-Plane Prints
 OutputDocumentPath10=
 OutputVariantName10=[No Variations]
 OutputDefault10=0
-OutputType11=Plane
-OutputName11=Power-Plane Prints
+PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType11=Test Points
+OutputName11=Test Point Report
 OutputDocumentPath11=
-OutputVariantName11=[No Variations]
+OutputVariantName11=
 OutputDefault11=0
-PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType12=Test Points
-OutputName12=Test Point Report
+OutputType12=Gerber
+OutputName12=Gerber Files
 OutputDocumentPath12=
-OutputVariantName12=
+OutputVariantName12=[No Variations]
 OutputDefault12=0
+Configuration12_Name1=ForceUpdateSettings
+Configuration12_Item1=False
+Configuration12_Name2=OutputConfigurationParameter1
+Configuration12_Item2=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|BoardID=ISGQBPAB|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=500000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=False|GenerateDRCRulesFile=False|GenerateReliefShapes=True|GenerateReports=True|GerberUnit=Metric|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=True|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MergePadAndRegion=False|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=4|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|OutputFormat=Different|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|PlotBoardProfile=False|PlotBoardProfileFileName= |PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|DocumentPath=C:\Users\Choaib ELMADI\Downloads\D.I.F.Y\Electronics\Robotics\7- CyberDrive\Circuit Diagram\CyberDriveControllerBoard\ControllerBoard.PcbDoc
 
 [OutputGroup6]
 Name=Report Outputs
@@ -1137,4 +1431,24 @@ ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=0|Use
 
 [SmartPDF]
 PageOptions=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+Configuration_Name1=OutputConfigurationParameter1
+Configuration_Item1=DesignatorDisplayMode=Physical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView|DocumentPath=C:\Users\Choaib ELMADI\Downloads\D.I.F.Y\Electronics\Robotics\7- CyberDrive\Circuit Diagram\CyberDriveControllerBoard\ControllerBoard.PcbDoc
+Configuration_Name2=OutputConfigurationParameter2
+Configuration_Item2=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=False|Name=Multilayer Composite Print|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\Users\Choaib ELMADI\Downloads\D.I.F.Y\Electronics\Robotics\7- CyberDrive\Circuit Diagram\CyberDriveControllerBoard\ControllerBoard.PcbDoc
+Configuration_Name3=OutputConfigurationParameter3
+Configuration_Item3=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopOverlay|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\Choaib ELMADI\Downloads\D.I.F.Y\Electronics\Robotics\7- CyberDrive\Circuit Diagram\CyberDriveControllerBoard\ControllerBoard.PcbDoc
+Configuration_Name4=OutputConfigurationParameter4
+Configuration_Item4=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\Choaib ELMADI\Downloads\D.I.F.Y\Electronics\Robotics\7- CyberDrive\Circuit Diagram\CyberDriveControllerBoard\ControllerBoard.PcbDoc
+Configuration_Name5=OutputConfigurationParameter5
+Configuration_Item5=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=BottomLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\Choaib ELMADI\Downloads\D.I.F.Y\Electronics\Robotics\7- CyberDrive\Circuit Diagram\CyberDriveControllerBoard\ControllerBoard.PcbDoc
+Configuration_Name6=OutputConfigurationParameter6
+Configuration_Item6=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MultiLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\Choaib ELMADI\Downloads\D.I.F.Y\Electronics\Robotics\7- CyberDrive\Circuit Diagram\CyberDriveControllerBoard\ControllerBoard.PcbDoc
+Configuration_Name7=OutputConfigurationParameter7
+Configuration_Item7=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical3|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\Choaib ELMADI\Downloads\D.I.F.Y\Electronics\Robotics\7- CyberDrive\Circuit Diagram\CyberDriveControllerBoard\ControllerBoard.PcbDoc
+Configuration_Name8=OutputConfigurationParameter8
+Configuration_Item8=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical11|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\Choaib ELMADI\Downloads\D.I.F.Y\Electronics\Robotics\7- CyberDrive\Circuit Diagram\CyberDriveControllerBoard\ControllerBoard.PcbDoc
+Configuration_Name9=OutputConfigurationParameter9
+Configuration_Item9=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\Choaib ELMADI\Downloads\D.I.F.Y\Electronics\Robotics\7- CyberDrive\Circuit Diagram\CyberDriveControllerBoard\ControllerBoard.PcbDoc
+Configuration_Name10=OutputConfigurationParameter10
+Configuration_Item10=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\Choaib ELMADI\Downloads\D.I.F.Y\Electronics\Robotics\7- CyberDrive\Circuit Diagram\CyberDriveControllerBoard\ControllerBoard.PcbDoc
 
