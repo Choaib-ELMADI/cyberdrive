@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [CyberDriveControllerBoard.PrjPcb]
+   Generated File[ControllerBoard.TXT]
+   Generated File[ControllerBoard.LDP]
+   Generated File[ControllerBoard.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 4:19:50 PM On 3/29/2024
