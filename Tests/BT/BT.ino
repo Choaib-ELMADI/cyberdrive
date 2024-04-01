@@ -5,8 +5,9 @@
 #endif
 
 BluetoothSerial serialBT;
-char data[20] = "";
-char cmd[3] = "";
+String data;
+int v1, v2, v3;
+int number;
 
 void setup() {
     Serial.begin(115200);
@@ -15,25 +16,23 @@ void setup() {
 }
 
 void loop() {
-    // => Send data from PC to the connected device
-    // if (Serial.available()) {
-    //     serialBT.write(Serial.read());
-    // }
-
-    // => Receive data from the connected device
-    // if (serialBT.available()) {
-    //     Serial.write(serialBT.read());
-    // }
-
+    // Send Data
+    number = random(100);
     if (serialBT.available()) {
-        data = serialBT.read();
-        Serial.println(data);
+        serialBT.println(number);
     }
 
+    // Receive Data
     if (serialBT.available()) {
-        cmd = Serial.read();
-        serialBT.write(cmd);
+        data = serialBT.readStringUntil('\n');
+        sscanf(data.c_str(), "%d, %d, %d", &v1, &v2, &v3);
+
+        Serial.print(v1);
+        Serial.print(" - ");
+        Serial.print(v2);
+        Serial.print(" - ");
+        Serial.println(v3);
     }
 
-    delay(20);
+    delay(100);
 }
