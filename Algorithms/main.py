@@ -1,20 +1,18 @@
-import serial
+import requests
 import random
 
-print("Connecting BT...")
-bluetooth = serial.Serial(port="COM4", baudrate=9600, timeout=0)
-print("BT connected.")
+
+def handle_steering_angle_update(steering_angle):
+    url = "http://192.168.45.202/"
+    params = {"steeringAngle": steering_angle}
+    response = requests.put(url, params=params)
+    if response.status_code == 200:
+        print("Steering angle updated successfully")
+    else:
+        print("Failed to update steering angle")
+
 
 while True:
-    # Receive Data
-    # if bluetooth.in_waiting > 0:
-    #     print("Received: ", end="")
-    #     data = bluetooth.readline().decode().strip()
-    #     print(data)
-
     # Send Data
-    v1 = random.randint(0, 10)
-    v2 = random.randint(10, 20)
-    v3 = random.randint(20, 30)
-    state = bluetooth.write(f"{v1}, {v2}, {v3}\n".encode())
-    print(f"Sent.")
+    steering_angle = random.randint(-60, 60)
+    handle_steering_angle_update(steering_angle)
