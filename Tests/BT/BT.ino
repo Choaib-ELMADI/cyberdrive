@@ -25,14 +25,14 @@ void loop() {
     // Receive Data
     if (serialBT.available()) {
         data = serialBT.readStringUntil('\n');
-        sscanf(data.c_str(), "%d, %d, %d", &v1, &v2, &v3);
-
-        Serial.print(v1);
-        Serial.print(" - ");
-        Serial.print(v2);
-        Serial.print(" - ");
-        Serial.println(v3);
     }
+    sscanf(data.c_str(), "%d, %d, %d", &v1, &v2, &v3);
+
+    Serial.print(v1);
+    Serial.print(" - ");
+    Serial.print(v2);
+    Serial.print(" - ");
+    Serial.println(v3);
 
     delay(100);
 }
