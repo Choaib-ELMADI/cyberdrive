@@ -120,6 +120,23 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document5]
+DocumentPath=Downloaded Libraries\ESP32-CAM\ESP32-CAM.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=QYBRTTJB
+
+[Document6]
 DocumentPath=PinsHoles2.5MM1MM.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -136,7 +153,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LJFPADWY
 
-[Document6]
+[Document7]
 DocumentPath=PinsHoles2.5MM1MM.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -152,6 +169,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MSPXCRGU
+
+[Document8]
+DocumentPath=Downloaded Libraries\ESP32-CAM\ESP32-CAM.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=XQLGOVNZ
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for CyberDriveControllerBoard\ControllerBoard.DRR

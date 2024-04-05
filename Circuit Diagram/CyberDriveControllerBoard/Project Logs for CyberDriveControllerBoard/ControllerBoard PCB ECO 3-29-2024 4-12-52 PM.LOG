@@ -1,6 +1,0 @@
-Change Component Footprint: Designator=P1 Old Footprint=61300811121 New Footprint=61300811121
-Change Component Footprint: Designator=P2 Old Footprint=61300811121 New Footprint=61300811121
-Change Component Footprint: Designator=J1 Old Footprint=61300811821 New Footprint=61300811821
-Change Component Footprint: Designator=J2 Old Footprint=61300811821 New Footprint=61300811821
-Add Component: Footprint Not Found PinsHoles
-Add Class Member: Failed to add class member : Component PH-h1 Pins Holes 2.5mm 1mm
