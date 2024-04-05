@@ -7,7 +7,6 @@ bluetooth = serial.Serial(port="COM5", baudrate=115200, timeout=0)
 print("BT connected.")
 
 while True:
-    # steering_angle = random.randint(-100, 100)
-    steering_angle = int(input("Enter an angle: "))
+    steering_angle = random.randint(-100, 100)
+    # steering_angle = int(input("Enter an angle: "))
     bluetooth.write(f"{steering_angle}\n".encode())
-    time.sleep(0.5)

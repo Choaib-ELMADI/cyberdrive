@@ -1,5 +1,4 @@
 #include "BluetoothSerial.h"
-
 #if !defined(CONFIG_BT_ENABLED) || !defined(CONFIG_BLUEDROID_ENABLED)
 #error "Bluetooth is not enabled!"
 #endif
@@ -7,6 +6,9 @@
 BluetoothSerial serialBT;
 String data;
 int steeringAngle;
+
+unsigned long previousMillisTime = 0;
+const uint8_t delayMillisTime = 500;
 
 // Motor A: RIGHT
 const uint8_t ENA = 15;
@@ -23,6 +25,12 @@ const uint8_t CHANNEL_A = 0;
 const uint8_t CHANNEL_B = 1;
 const uint32_t FREQUENCY = 2000;
 const uint8_t RESOLUTION_BITS = 8;
+
+const uint8_t trigHighDelay = 10;
+const uint8_t trigLowDelay = 2;
+const uint8_t triggerPin = 9;
+const uint8_t echoPin = 13;
+int objectDistance;
 
 void setup() {
     Serial.begin(115200);
@@ -47,34 +55,46 @@ void loop() {
         data = serialBT.readStringUntil('\n');
     }
 
-    int state = sscanf(data.c_str(), "%d", &steeringAngle);
-    if (state == 1) {
-        Serial.print("Steering angle: ");
-        Serial.println(steeringAngle);
+    if (millis() - previousMillisTime >= delayMillisTime) {
+        previousMillisTime = millis();
 
-        switch (steeringAngle) {
-        case 1:
-            goForward(100);
-            break;
-        case 2:
-            goBackward(100);
-            break;
-        case 3:
-            left();
-            break;
-        case 4:
-            right();
-            break;
-        case 5:
-            goForward(160);
-            break;
-        case 6:
-            goBackward(160);
-            break;
-        default:
-            stop();
-            break;
+        int state = sscanf(data.c_str(), "%d", &steeringAngle);
+        if (state == 1) {
+            Serial.print("Steering angle: ");
+            Serial.print(steeringAngle);
+            Serial.print(" ");
+
+            switch (steeringAngle) {
+            case 1:
+                goForward(100);
+                break;
+            case 2:
+                goBackward(100);
+                break;
+            case 3:
+                left();
+                break;
+            case 4:
+                right();
+                break;
+            case 5:
+                goForward(160);
+                break;
+            case 6:
+                goBackward(160);
+                break;
+            default:
+                stop();
+                break;
+            }
+
+            objectDistance = obstacleDistance(triggerPin, echoPin);
+            Serial.print("Distance: ");
+            Serial.print(objectDistance);
+            Serial.print("cm ");
         }
+
+        Serial.println("");
     }
 }
 
@@ -86,7 +106,6 @@ void goForward(uint8_t speed) {
     digitalWrite(IN4, LOW);
     ledcWrite(CHANNEL_B, speed);
 }
-
 void goBackward(uint8_t speed) {
     digitalWrite(IN1, LOW);
     digitalWrite(IN2, HIGH);
@@ -95,7 +114,6 @@ void goBackward(uint8_t speed) {
     digitalWrite(IN4, HIGH);
     ledcWrite(CHANNEL_B, speed);
 }
-
 void left() {
     digitalWrite(IN1, HIGH);
     digitalWrite(IN2, LOW);
@@ -103,7 +121,6 @@ void left() {
     digitalWrite(IN3, LOW);
     digitalWrite(IN4, LOW);
 }
-
 void right() {
     digitalWrite(IN1, LOW);
     digitalWrite(IN2, LOW);
@@ -111,10 +128,30 @@ void right() {
     digitalWrite(IN4, LOW);
     ledcWrite(CHANNEL_B, BASE_SPEED);
 }
-
 void stop() {
     digitalWrite(IN1, LOW);
     digitalWrite(IN2, LOW);
     digitalWrite(IN3, LOW);
     digitalWrite(IN4, LOW);
+}
+
+int obstacleDistance(uint8_t trig, uint8_t echo) {
+    unsigned long prevTrigLowTime = 0;
+    unsigned long prevTrigHighTime = 0;
+    int distance, duration;
+
+    if (micros() - prevTrigLowTime < trigLowDelay) {
+        digitalWrite(trig, LOW);
+        prevTrigLowTime = micros();
+    }
+    if (micros() - prevTrigHighTime > trigHighDelay) {
+        digitalWrite(trig, HIGH);
+        prevTrigHighTime = micros();
+    }
+    digitalWrite(trig, LOW);
+
+    duration = pulseIn(echo, HIGH);
+    distance = duration * 0.034 / 2;
+
+    return distance;
 }
