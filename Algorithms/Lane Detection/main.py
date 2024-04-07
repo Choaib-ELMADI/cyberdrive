@@ -171,7 +171,7 @@ if __name__ == "__main__":
         _, frame = cap.read()
         frame = cv2.resize(frame, (480, 360))
 
-        curve = get_image_curve(frame, show=2)
+        curve = get_image_curve(frame, show=1)
         # curve = get_image_curve(frame)
         print(curve)
 
