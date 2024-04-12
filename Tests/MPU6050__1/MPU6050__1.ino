@@ -2,7 +2,7 @@
 #include "MPU6050_6Axis_MotionApps20.h"
 #include "Wire.h"
 
-#define INTERRUPT_PIN 34
+#define INTERRUPT_PIN 2
 
 MPU6050 mpu;
 bool dmpReady;
@@ -22,6 +22,9 @@ void setup() {
 }
 
 void loop() {
+    if (!dmpReady)
+        return;
+
     float *yprAngles = getYawPitchRoll();
     Serial.print("Yaw: ");
     Serial.println(yprAngles[0]);
@@ -63,16 +66,14 @@ void initializeMPU() {
 }
 
 float *getYawPitchRoll() {
-    if (dmpReady) {
-        if (mpu.dmpGetCurrentFIFOPacket(fifoBuffer)) {
-            mpu.dmpGetQuaternion(&q, fifoBuffer);
-            mpu.dmpGetGravity(&gravity, &q);
-            mpu.dmpGetYawPitchRoll(ypr, &q, &gravity);
-            for (int i = 0; i < 3; ++i) {
-                yawPitchRoll[i] = ypr[i] * 180 / M_PI;
-            }
-
-            return yawPitchRoll;
+    if (mpu.dmpGetCurrentFIFOPacket(fifoBuffer)) {
+        mpu.dmpGetQuaternion(&q, fifoBuffer);
+        mpu.dmpGetGravity(&gravity, &q);
+        mpu.dmpGetYawPitchRoll(ypr, &q, &gravity);
+        for (int i = 0; i < 3; ++i) {
+            yawPitchRoll[i] = ypr[i] * 180 / M_PI;
         }
+
+        return yawPitchRoll;
     }
 }
