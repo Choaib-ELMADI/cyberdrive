@@ -1,4 +1,4 @@
-const uint8_t redLED = 18;
+const uint8_t redLED = 1;
 const uint8_t greenLED = 4;
 const uint8_t yellowLED = 2;
 const long redInterval = 250;
