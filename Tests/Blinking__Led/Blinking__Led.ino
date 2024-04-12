@@ -1,22 +1,33 @@
-const uint8_t ledPin = 5;
+const uint8_t redLED = 5;
+const uint8_t greenLED = 4;
+const uint8_t yellowLED = 3;
+const long redInterval = 500;
+const long greenInterval = 1000;
+const long yellowInterval = 500;
+unsigned long previousMillisArray[3] = {0, 0, 0};
+bool ledStateArray[3] = {LOW, LOW, LOW};
 
-unsigned long currentMillis = 0;
-unsigned long previousMillis = 0;
-const long interval = 500;
-bool ledState = LOW;
-
-void setup() { pinMode(ledPin, OUTPUT); }
+void setup() {
+    pinMode(redLED, OUTPUT);
+    pinMode(greenLED, OUTPUT);
+    pinMode(yellowLED, OUTPUT);
+}
 
 void loop() {
-    currentMillis = millis();
-    if (currentMillis - previousMillis >= interval) {
-        previousMillis = currentMillis;
+    blinkLED(redLED, redInterval, 0);
+    blinkLED(greenLED, greenInterval, 1);
+    blinkLED(yellowLED, yellowInterval, 2);
+}
 
-        if (ledState == LOW)
-            ledState = HIGH;
+void blinkLED(uint8_t ledPin, long interval, uint8_t ledIndex) {
+    if (millis() - previousMillisArray[ledIndex] >= interval) {
+        previousMillisArray[ledIndex] = millis();
+
+        if (ledStateArray[ledIndex] == LOW)
+            ledStateArray[ledIndex] = HIGH;
         else
-            ledState = LOW;
+            ledStateArray[ledIndex] = LOW;
 
-        digitalWrite(ledPin, ledState);
+        digitalWrite(ledPin, ledStateArray[ledIndex]);
     }
 }
