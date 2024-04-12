@@ -1,9 +1,9 @@
-const uint8_t redLED = 5;
+const uint8_t redLED = 18;
 const uint8_t greenLED = 4;
-const uint8_t yellowLED = 3;
-const long redInterval = 500;
-const long greenInterval = 1000;
-const long yellowInterval = 500;
+const uint8_t yellowLED = 2;
+const long redInterval = 250;
+const long greenInterval = 500;
+const long yellowInterval = 1000;
 unsigned long previousMillisArray[3] = {0, 0, 0};
 bool ledStateArray[3] = {LOW, LOW, LOW};
 
