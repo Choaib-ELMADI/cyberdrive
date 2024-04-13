@@ -1,22 +1,26 @@
-const uint8_t redLED = 1;
-const uint8_t greenLED = 4;
-const uint8_t yellowLED = 2;
-const long redInterval = 250;
-const long greenInterval = 500;
-const long yellowInterval = 1000;
-unsigned long previousMillisArray[3] = {0, 0, 0};
-bool ledStateArray[3] = {LOW, LOW, LOW};
+const uint8_t frontLight = 25;
+const uint8_t brakeLight = 18;
+const uint8_t rightBlinker = 19;
+const uint8_t leftBlinker = 15;
+const long frontLightInterval = 3000;
+const long brakeLightInterval = 3000;
+const long rightBlinkerInterval = 500;
+const long leftBlinkerInterval = 500;
+unsigned long previousMillisArray[4] = {0, 0, 0, 0};
+bool ledStateArray[4] = {LOW, LOW, LOW, LOW};
 
 void setup() {
-    pinMode(redLED, OUTPUT);
-    pinMode(greenLED, OUTPUT);
-    pinMode(yellowLED, OUTPUT);
+    pinMode(frontLight, OUTPUT);
+    pinMode(brakeLight, OUTPUT);
+    pinMode(rightBlinker, OUTPUT);
+    pinMode(leftBlinker, OUTPUT);
 }
 
 void loop() {
-    blinkLED(redLED, redInterval, 0);
-    blinkLED(greenLED, greenInterval, 1);
-    blinkLED(yellowLED, yellowInterval, 2);
+    blinkLED(frontLight, frontLightInterval, 0);
+    blinkLED(brakeLight, brakeLightInterval, 1);
+    blinkLED(rightBlinker, rightBlinkerInterval, 2);
+    blinkLED(leftBlinker, leftBlinkerInterval, 3);
 }
 
 void blinkLED(uint8_t ledPin, long interval, uint8_t ledIndex) {
