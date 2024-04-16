@@ -1,24 +1,24 @@
-const uint8_t frontTrig = 12;
-const uint8_t frontEcho = 11;
-
-int trigHighDelay = 10;
-int trigLowDelay = 2;
+const uint8_t trig = 14;
+const uint8_t echo = 27;
+const uint8_t trigHighDelay = 10;
+const uint8_t trigLowDelay = 2;
 
 void setup() {
     Serial.begin(9600);
 
-    pinMode(frontTrig, OUTPUT);
-    pinMode(frontEcho, INPUT);
+    pinMode(trig, OUTPUT);
+    pinMode(echo, INPUT);
 }
 
 void loop() {
-    int front = obstacleDistance(frontTrig, frontEcho);
-    Serial.println(front);
+    int distance = obstacleDistance(trig, echo);
+    Serial.println(distance);
+    // delay(250);
 }
 
 int obstacleDistance(int trig, int echo) {
-    unsigned long prevTrigLowTime = 0;
-    unsigned long prevTrigHighTime = 0;
+    static unsigned long prevTrigLowTime = 0;
+    static unsigned long prevTrigHighTime = 0;
 
     int distance, duration;
 
