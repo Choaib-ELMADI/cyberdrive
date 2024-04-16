@@ -1,5 +1,5 @@
 // Motor A: RIGHT
-const uint8_t ENA = 15;
+const uint8_t ENA = 32;
 const uint8_t IN1 = 2;
 const uint8_t IN2 = 0;
 
@@ -8,7 +8,7 @@ const uint8_t IN3 = 16;
 const uint8_t IN4 = 4;
 const uint8_t ENB = 17;
 
-const int BASE_SPEED = 100;
+const int BASE_SPEED = 95;
 const uint8_t CHANNEL_A = 0;
 const uint8_t CHANNEL_B = 1;
 const uint32_t FREQUENCY = 2000;
@@ -32,7 +32,13 @@ void loop() {
     goForward(120);
     delay(3000);
 
+    goForward(BASE_SPEED);
+    delay(3000);
+
     goBackward(120);
+    delay(3000);
+
+    goBackward(BASE_SPEED);
     delay(3000);
 
     left();
