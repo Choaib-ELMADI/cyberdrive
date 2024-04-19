@@ -4,9 +4,9 @@ import matplotlib.pyplot as plt
 import utils
 
 
-video_name = "phone__video__1.mp4"
-video_path = f"C:\\Users\\Choaib ELMADI\\Downloads\\D.I.F.Y\\Electronics\\Robotics\\7- CyberDrive\\Assets\\Videos\\{ video_name }"
-# video_path = "http://192.168.251.202:81/stream"
+# video_name = "phone__video__1.mp4"
+# video_path = f"C:\\Users\\Choaib ELMADI\\Downloads\\D.I.F.Y\\Electronics\\Robotics\\7- CyberDrive\\Assets\\Videos\\{ video_name }"
+video_path = "http://192.168.88.202:81/stream"
 
 global curves_list
 curves_list = []
@@ -169,7 +169,7 @@ if __name__ == "__main__":
     frame_counter = 0
     while True:
         _, frame = cap.read()
-        frame = cv2.resize(frame, (480, 360))
+        frame = cv2.resize(frame, (640, 480))
 
         curve = get_image_curve(frame, show=1)
         # curve = get_image_curve(frame)
