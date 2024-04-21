@@ -4,9 +4,9 @@ import matplotlib.pyplot as plt
 import utils
 
 
-# video_name = "phone__video__1.mp4"
-# video_path = f"C:\\Users\\Choaib ELMADI\\Downloads\\D.I.F.Y\\Electronics\\Robotics\\7- CyberDrive\\Assets\\Videos\\{ video_name }"
-video_path = "http://192.168.88.202:81/stream"
+video_name = "rec__2__2.mp4"
+video_path = f"C:\\Users\\Choaib ELMADI\\Downloads\\D.I.F.Y\\Electronics\\Robotics\\7- CyberDrive\\Assets\\Videos\\{ video_name }"
+# video_path = "http://192.168.88.202:81/stream"
 
 global curves_list
 curves_list = []
