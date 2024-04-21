@@ -10,7 +10,7 @@ video_path = f"C:\\Users\\Choaib ELMADI\\Downloads\\D.I.F.Y\\Electronics\\Roboti
 
 global curves_list
 curves_list = []
-max_curves_list_len = 10
+max_curves_list_len = 5
 GREEN = (0, 255, 0)
 BLACK = (0, 0, 0)
 text_background = (198, 63, 88)
@@ -108,46 +108,6 @@ def get_image_curve(image, show=2):
         cv2.FILLED,
     )
 
-    # """
-    cv2.rectangle(image, (0, 0), (60, 50), text_background, cv2.FILLED)
-    cv2.putText(image, "1", (15, 35), cv2.FONT_HERSHEY_COMPLEX_SMALL, 2, text_color, 2)
-
-    cv2.rectangle(image_with_points, (0, 0), (60, 50), text_background, cv2.FILLED)
-    cv2.putText(
-        image_with_points,
-        "2",
-        (15, 35),
-        cv2.FONT_HERSHEY_COMPLEX_SMALL,
-        2,
-        text_color,
-        2,
-    )
-
-    cv2.rectangle(warped_image, (0, 0), (60, 50), text_background, cv2.FILLED)
-    cv2.putText(
-        warped_image, "3", (15, 35), cv2.FONT_HERSHEY_COMPLEX_SMALL, 2, text_color, 2
-    )
-
-    cv2.rectangle(summation_image, (0, 0), (60, 50), text_background, cv2.FILLED)  # type: ignore
-    cv2.putText(summation_image, "4", (15, 35), cv2.FONT_HERSHEY_COMPLEX_SMALL, 2, text_color, 2)  # type: ignore
-
-    cv2.rectangle(warped_image_inv, (0, 0), (60, 50), text_background, cv2.FILLED)
-    cv2.putText(
-        warped_image_inv,
-        "5",
-        (15, 35),
-        cv2.FONT_HERSHEY_COMPLEX_SMALL,
-        2,
-        text_color,
-        2,
-    )
-
-    cv2.rectangle(result_image, (0, 0), (60, 50), text_background, cv2.FILLED)
-    cv2.putText(
-        result_image, "6", (15, 35), cv2.FONT_HERSHEY_COMPLEX_SMALL, 2, text_color, 2
-    )
-    # """
-
     if show == 2:
         stacked_images = utils.stack_images(
             0.95,
@@ -171,19 +131,20 @@ if __name__ == "__main__":
         _, frame = cap.read()
         frame = cv2.resize(frame, (640, 480))
 
-        curve = get_image_curve(frame, show=1)
-        # curve = get_image_curve(frame)
-        print(curve)
+        if frame_counter % 10 == 0:
+            curve = get_image_curve(frame, show=1)
+            # curve = get_image_curve(frame)
+            print(curve)
 
-        # plt.imshow(frame)
-        # plt.show()
+            # plt.imshow(frame)
+            # plt.show()
 
         frame_counter += 1
         if frame_counter == cap.get(cv2.CAP_PROP_FRAME_COUNT):
             frame_counter = 0
             cap.set(cv2.CAP_PROP_POS_FRAMES, 0)
 
-        if cv2.waitKey(1) & 0xFF == ord("q"):
+        if cv2.waitKey(30) & 0xFF == ord("q"):
             break
 
     cap.release()
