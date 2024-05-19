@@ -1,6 +1,8 @@
+[![Choaib ELMADI - CyberDrive](https://img.shields.io/badge/Choaib_ELMADI-CyberDrive-8800dd)](https://elmadichoaib.vercel.app) ![Status - Building](https://img.shields.io/badge/Status-Building-2bd729)
+
 # CyberDrive: Self-Driving Car Project with Python
 
-#### CyberDrive is an ambitious project aimed at developing a self-driving car prototype inspired by the innovative technology of the Tesla Cybertruck. Leveraging Python and ESP32CAM, CyberDrive integrates cutting-edge computer vision algorithms to process real-time images and drive autonomously, mimicking the functionalities of advanced automotive technologies.
+CyberDrive is an ambitious project aimed at developing a self-driving car prototype inspired by the innovative technology of the Tesla Cybertruck. Leveraging Python and ESP32CAM, CyberDrive integrates cutting-edge computer vision algorithms to process real-time images and drive autonomously, mimicking the functionalities of advanced automotive technologies.
 
 ![CyberTruck](./3D%20Models/cybertruck.jpg)
 
@@ -30,4 +32,4 @@
 
 - `Distance Calculation`: Advanced algorithms calculate distances to other vehicles on the road, ensuring safe driving practices and collision avoidance maneuvers.
 
-#### CyberDrive represents a groundbreaking endeavor in the field of self-driving car technology, combining innovation, machine learning, and real-world applications to create a safer and more efficient transportation future.
+CyberDrive represents a groundbreaking endeavor in the field of self-driving car technology, combining innovation, machine learning, and real-world applications to create a safer and more efficient transportation future.
