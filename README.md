@@ -5,6 +5,7 @@
 CyberDrive is an ambitious project aimed at developing a self-driving car prototype inspired by the innovative technology of the Tesla Cybertruck. Leveraging Python and ESP32CAM, CyberDrive integrates cutting-edge computer vision algorithms to process real-time images and drive autonomously, mimicking the functionalities of advanced automotive technologies.
 
 ![CyberTruck](./3D%20Models/cybertruck.jpg)
+![CyberTruck 3D](./Assets/Images/cyberdrive-3d.jpg)
 
 ## Demonstration: [Watch the demo video](Assets/Demo/Video%20Demo.mp4)
 
