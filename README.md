@@ -6,6 +6,10 @@ CyberDrive is an ambitious project aimed at developing a self-driving car protot
 
 ![CyberTruck](./3D%20Models/cybertruck.jpg)
 
+## Demonstration: [Watch the demo video](Assets/Demo/Video%20Demo.mp4)
+
+https://github.com/Choaib-ELMADI/cyberdrive/assets/111356633/f45a03a8-2c1a-45fe-a7d8-ce55ca6dd9d6
+
 ## Project Goals:
 
 - `Autonomous Navigation`: Implement computer vision algorithms to enable the car to navigate and make decisions based on real-time visual inputs, paving the way for autonomous driving capabilities.
