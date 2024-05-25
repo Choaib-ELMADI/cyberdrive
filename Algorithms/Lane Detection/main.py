@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import utils
 
 
-video_name = "rec__2__2.mp4"
+video_name = "phone__video__2.mp4"
 video_path = f"C:\\Users\\Choaib ELMADI\\Downloads\\D.I.F.Y\\Electronics\\Robotics\\7- CyberDrive\\Assets\\Videos\\{ video_name }"
 # video_path = "http://192.168.88.202:81/stream"
 
@@ -110,7 +110,7 @@ def get_image_curve(image, show=2):
 
     if show == 2:
         stacked_images = utils.stack_images(
-            0.95,
+            0.7,
             (
                 [image, image_with_points, warped_image],
                 [summation_image, warped_image_inv, result_image],
@@ -131,13 +131,12 @@ if __name__ == "__main__":
         _, frame = cap.read()
         frame = cv2.resize(frame, (640, 480))
 
-        if frame_counter % 10 == 0:
-            curve = get_image_curve(frame, show=1)
-            # curve = get_image_curve(frame)
-            print(curve)
+        curve = get_image_curve(frame, show=2)
+        # curve = get_image_curve(frame)
+        print(curve)
 
-            # plt.imshow(frame)
-            # plt.show()
+        # plt.imshow(frame)
+        # plt.show()
 
         frame_counter += 1
         if frame_counter == cap.get(cv2.CAP_PROP_FRAME_COUNT):
