@@ -4,3 +4,8 @@ MiniTeslaVenv/
 
 Start/
 Tests/
+
+Algorithms/Angle*Detection
+Algorithms/Line*Detection
+Algorithms/Object*Distance
+Algorithms/main.py
