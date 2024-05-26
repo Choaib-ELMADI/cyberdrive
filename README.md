@@ -9,7 +9,7 @@ CyberDrive is an ambitious project aimed at developing a self-driving car protot
 
 ## Demonstration: [Watch the demo video](Assets/Demo/Video%20Demo.mp4)
 
-https://github.com/Choaib-ELMADI/cyberdrive/assets/111356633/f45a03a8-2c1a-45fe-a7d8-ce55ca6dd9d6
+https://github.com/Choaib-ELMADI/cyberdrive/assets/111356633/bb55ab61-e796-419e-888f-d1f75af9644b
 
 ## Project Goals:
 
