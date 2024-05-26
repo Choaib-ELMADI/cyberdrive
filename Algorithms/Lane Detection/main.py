@@ -5,7 +5,7 @@ import utils
 
 
 video_name = "phone__video__2.mp4"
-video_path = f"C:\\Users\\Choaib ELMADI\\Downloads\\D.I.F.Y\\Electronics\\Robotics\\7- CyberDrive\\Assets\\Videos\\{ video_name }"
+video_path = f"C:\\Users\\Choaib ELMADI\\Downloads\\D.I.F.Y\\Electronics\\1. Robotics\\7- CyberDrive\\Assets\\Videos\\{ video_name }"
 # video_path = "http://192.168.88.202:81/stream"
 
 global curves_list
@@ -116,11 +116,13 @@ def get_image_curve(image, show=2):
                 [summation_image, warped_image_inv, result_image],
             ),
         )
-        cv2.imshow("Stacked Images: Pipeline", stacked_images)
+        cv2.imshow("Road Detection: Pipeline", stacked_images)
+        final_image = stacked_images
     elif show == 1:
         cv2.imshow("Result Image", result_image)
+        final_image = result_image
 
-    return curve
+    return curve, final_image
 
 
 if __name__ == "__main__":
@@ -131,8 +133,8 @@ if __name__ == "__main__":
         _, frame = cap.read()
         frame = cv2.resize(frame, (640, 480))
 
-        curve = get_image_curve(frame, show=2)
-        # curve = get_image_curve(frame)
+        curve, final_image = get_image_curve(frame, show=2)
+        # curve, final_image = get_image_curve(frame)
         print(curve)
 
         # plt.imshow(frame)
@@ -143,7 +145,10 @@ if __name__ == "__main__":
             frame_counter = 0
             cap.set(cv2.CAP_PROP_POS_FRAMES, 0)
 
-        if cv2.waitKey(30) & 0xFF == ord("q"):
+        key = cv2.waitKey(30) & 0xFF
+        if key == ord("s"):
+            cv2.imwrite("pipeline__0.jpg", final_image)
+        if key == ord("q"):
             break
 
     cap.release()
